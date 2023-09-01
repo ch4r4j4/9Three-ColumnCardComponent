@@ -1,5 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap");
+@import 'node_modules/tailwindcss/base.css';
+@import 'node_modules/tailwindcss/components.css';
+@import 'node_modules/tailwindcss/utilities.css';
+@import 'node_modules/tailwindcss/tailwind.css';
+.card {
+  width: 15rem;
+}
+
 .main-container {
   font-family: "Big Shoulders Display", cursive;
 }
@@ -7,9 +15,5 @@
 .card {
   font-family: "Lexend Deca", sans-serif;
 }
-
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
 
 /*# sourceMappingURL=style.css.map */

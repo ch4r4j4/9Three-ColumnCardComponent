@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["SASS/_globals.scss","node_modules/tailwindcss/base.css","node_modules/tailwindcss/components.css","node_modules/tailwindcss/utilities.css"],"names":[],"mappings":"AAAQ;AACA;AAKR;EACI,aAJY;;;AAOhB;EACI,aAPY;;;ACJhB;ACAA;ACAA","file":"style.css"}
+{"version":3,"sourceRoot":"","sources":["SASS/_globals.scss","index.scss","SASS/_components.scss"],"names":[],"mappings":"AAAQ;AACA;ACGA;AACA;AACA;AACA;ACPR;EACI;;;AFKJ;EACI,aAJY;;;AAOhB;EACI,aAPY","file":"style.css"}
