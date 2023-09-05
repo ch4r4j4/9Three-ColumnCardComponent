@@ -12,8 +12,5 @@
     "component"
   ],
   "author": "Paul Charaja",
-  "license": "ISC",
-  "dependencies": {
-    "tailwindcss": "^3.3.3"
-  }
+  "license": "ISC"
 }
