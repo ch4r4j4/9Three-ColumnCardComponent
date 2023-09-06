@@ -11,11 +11,22 @@ body {
    justify-content: center;
    align-items: center;*/
 }
+@media (max-width: 767px) {
+  body {
+    height: auto;
+  }
+}
+
+.main-container {
+  overflow: hidden;
+}
 
 .card {
   width: 20rem;
   height: auto;
   font-family: "Lexend Deca", sans-serif;
+  height: 32rem;
+  justify-content: flex-start;
 }
 
 .icon {
@@ -29,6 +40,10 @@ body {
 .paraf {
   font-weight: 400;
   font-size: 15px;
+}
+
+.knowmore:last-child {
+  margin-top: auto;
 }
 
 /*# sourceMappingURL=style.css.map */

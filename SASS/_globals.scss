@@ -14,15 +14,21 @@ body{
     gap: 2rem;
     justify-content: center;
     align-items: center;*/
+    @media (max-width: 767px) {
+        height: auto;
+    }
 }
 
 .main-container{
+    overflow: hidden;
 }
 
 .card{
     width: 20rem;
     height: auto;
     font-family: $lexend-family;
+    height: 32rem;
+    justify-content: flex-start;
 }
 
 .icon{
@@ -36,4 +42,8 @@ body{
 .paraf{
     font-weight: 400;
     font-size: 15px;
+}
+
+.knowmore:last-child{
+    margin-top: auto;
 }
