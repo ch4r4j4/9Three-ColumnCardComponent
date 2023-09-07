@@ -9,30 +9,30 @@ body{
     height: 100vh;
     width: 100vw;
     background-color: hsl(0, 0%, 95%);
-   /* display: flex;
-    flex-direction: column;
-    gap: 2rem;
-    justify-content: center;
-    align-items: center;*/
-    @media (max-width: 767px) {
+    @media (max-width: 1032px) {
         height: auto;
     }
 }
 
 .main-container{
     overflow: hidden;
+    @media (max-width: 767px) {
+        width: min-content;
+    }
 }
 
 .card{
     width: 20rem;
-    height: auto;
     font-family: $lexend-family;
     height: 32rem;
     justify-content: flex-start;
+    @media (max-width: 767px) {
+        height: auto;
+    }
 }
 
 .icon{
-    width: 3.3rem;
+    width: 4rem;
 }
 
 .titlecard{
@@ -41,7 +41,7 @@ body{
 
 .paraf{
     font-weight: 400;
-    font-size: 15px;
+    font-size: 16px;
 }
 
 .knowmore:last-child{
